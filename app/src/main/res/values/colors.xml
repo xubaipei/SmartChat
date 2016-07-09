@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+<!--导航条颜色-->
+    <color name="mainColor">#4b6aef</color>
+    <!--按钮颜色-->
+    <color name="buttonBg">#674555</color>
+
+    <!--defaultColor-->
+    <color name="white">#ffffff</color>
+    <color name="blue_btn_bg">#dd2995ec</color>
+</resources>

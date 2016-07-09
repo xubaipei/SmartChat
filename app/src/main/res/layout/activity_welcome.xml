@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/logo"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_margin="20dp"
+      android:layout_alignParentBottom="true"
+      >
+
+    <Button
+      android:id="@+id/loginBt"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      style="@style/button_with_blueBg_whitetext"
+      android:text="@string/login"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.2"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/registerBt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        style="@style/button_with_blueBg_whitetext" />
+
+
+
+  </LinearLayout>
+
+</RelativeLayout>

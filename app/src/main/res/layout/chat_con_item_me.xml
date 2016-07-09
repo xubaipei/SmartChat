@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="雪条"
+        android:id="@+id/content"
+        android:textSize="13sp"
+        android:gravity="center_vertical"
+        android:background="@drawable/chatto_bg_normal"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_toStartOf="@+id/view" />
+
+    <com.xubaipei.smartchat.widget.CircleImageView
+        android:layout_width="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+
+        android:src="@drawable/look_ic"
+        android:layout_alignBottom="@+id/content"
+        android:id="@+id/view" />
+
+</RelativeLayout>
